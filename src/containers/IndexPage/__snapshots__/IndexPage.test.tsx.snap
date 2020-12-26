@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexPage renders correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <h2>
+            Bitmex Client
+          </h2>
+          <h2>
+            v0.0.1
+          </h2>
+        </div>
+        <div>
+          <div>
+            Select symbol:
+          </div>
+          <span
+            className="bp3-popover-wrapper"
+          >
+            <span
+              className="bp3-popover-target"
+              onClick={[Function]}
+            >
+              <div
+                className=""
+                onKeyDown={[Function]}
+              >
+                <button
+                  className="bp3-button"
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="bp3-button-text"
+                  >
+                    XBTUSD
+                  </span>
+                  <span
+                    className="bp3-icon bp3-icon-caret-down"
+                    icon="caret-down"
+                  >
+                    <svg
+                      data-icon="caret-down"
+                      height={16}
+                      viewBox="0 0 16 16"
+                      width={16}
+                    >
+                      <desc>
+                        caret-down
+                      </desc>
+                      <path
+                        d="M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h1>
+          Create order
+        </h1>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div
+                  className="bp3-control-group bp3-fill bp3-numeric-input bp3-large"
+                >
+                  <div
+                    className="bp3-input-group bp3-large"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="bp3-input"
+                      min={0}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyPress={[Function]}
+                      onPaste={[Function]}
+                      placeholder="Enter a amount"
+                      style={
+                        Object {
+                          "paddingRight": 10,
+                        }
+                      }
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    className="bp3-button-group bp3-vertical bp3-fixed"
+                  >
+                    <button
+                      className="bp3-button"
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <span
+                        className="bp3-icon bp3-icon-chevron-up"
+                        icon="chevron-up"
+                      >
+                        <svg
+                          data-icon="chevron-up"
+                          height={16}
+                          viewBox="0 0 16 16"
+                          width={16}
+                        >
+                          <desc>
+                            chevron-up
+                          </desc>
+                          <path
+                            d="M12.71 9.29l-4-4C8.53 5.11 8.28 5 8 5s-.53.11-.71.29l-4 4a1.003 1.003 0 001.42 1.42L8 7.41l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71z"
+                            fillRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="bp3-button"
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <span
+                        className="bp3-icon bp3-icon-chevron-down"
+                        icon="chevron-down"
+                      >
+                        <svg
+                          data-icon="chevron-down"
+                          height={16}
+                          viewBox="0 0 16 16"
+                          width={16}
+                        >
+                          <desc>
+                            chevron-down
+                          </desc>
+                          <path
+                            d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                            fillRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="bp3-button bp3-disabled bp3-fill bp3-large bp3-intent-success"
+                disabled={true}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                tabIndex={-1}
+                type="button"
+              >
+                <span
+                  className="bp3-button-text"
+                >
+                  BUY
+                </span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div
+                  className="bp3-control-group bp3-fill bp3-numeric-input bp3-large"
+                >
+                  <div
+                    className="bp3-input-group bp3-large"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="bp3-input"
+                      min={0}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyPress={[Function]}
+                      onPaste={[Function]}
+                      placeholder="Enter a amount"
+                      style={
+                        Object {
+                          "paddingRight": 10,
+                        }
+                      }
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    className="bp3-button-group bp3-vertical bp3-fixed"
+                  >
+                    <button
+                      className="bp3-button"
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <span
+                        className="bp3-icon bp3-icon-chevron-up"
+                        icon="chevron-up"
+                      >
+                        <svg
+                          data-icon="chevron-up"
+                          height={16}
+                          viewBox="0 0 16 16"
+                          width={16}
+                        >
+                          <desc>
+                            chevron-up
+                          </desc>
+                          <path
+                            d="M12.71 9.29l-4-4C8.53 5.11 8.28 5 8 5s-.53.11-.71.29l-4 4a1.003 1.003 0 001.42 1.42L8 7.41l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71z"
+                            fillRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="bp3-button"
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <span
+                        className="bp3-icon bp3-icon-chevron-down"
+                        icon="chevron-down"
+                      >
+                        <svg
+                          data-icon="chevron-down"
+                          height={16}
+                          viewBox="0 0 16 16"
+                          width={16}
+                        >
+                          <desc>
+                            chevron-down
+                          </desc>
+                          <path
+                            d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                            fillRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="bp3-button bp3-disabled bp3-fill bp3-large bp3-intent-danger"
+                disabled={true}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                tabIndex={-1}
+                type="button"
+              >
+                <span
+                  className="bp3-button-text"
+                >
+                  SELL
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>
+          Position
+        </h1>
+        <div>
+          <div
+            className="bp3-non-ideal-state"
+          >
+            <div
+              className="bp3-non-ideal-state-visual"
+            >
+              <span
+                className="bp3-icon bp3-icon-issue"
+                icon="issue"
+              >
+                <svg
+                  data-icon="issue"
+                  height={60}
+                  viewBox="0 0 20 20"
+                  width={60}
+                >
+                  <desc>
+                    issue
+                  </desc>
+                  <path
+                    d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zm1-2H9v-2h2v2zm0-3H9V4h2v9z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h4
+              className="bp3-heading"
+            >
+              Position not found
+            </h4>
+            <div>
+              Probably you have not created position.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

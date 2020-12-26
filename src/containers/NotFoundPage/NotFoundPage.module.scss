@@ -1,0 +1,30 @@
+@import "../../assets/scss/_variables.scss";
+@import "../../assets/scss/_breakpoints.scss";
+
+.not-found-page {
+  display: block;
+  margin: 20px 0;
+  
+  &__content {
+    width: 100%;
+  }
+
+  &__sidebar {
+    width: 100%;
+  }
+}
+
+
+@include breakpoint-lg {
+  .not-found-page {
+    display: flex;
+
+    &__content {
+      lost-column: 10/12;
+    }
+
+    &__sidebar {
+      lost-column: 2/12; 
+    }
+  }
+}

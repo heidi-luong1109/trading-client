@@ -1,0 +1,13 @@
+@import "../../../assets/scss/_variables.scss";
+
+.create-buy {
+  display: block;
+
+  &__button {
+    text-align: center;
+  }
+
+  &__fields {
+    margin-bottom: 20px;
+  }
+}

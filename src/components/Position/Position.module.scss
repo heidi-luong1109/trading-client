@@ -1,0 +1,15 @@
+@import "../../assets/scss/_variables.scss";
+
+.position {
+  display: block;
+  margin: 0 0 40px;
+
+  &__title {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "coverageDirectory": "<rootDir>/tests/__coverage__/",
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "ts",
+    "tsx"
+  ],
+  "moduleNameMapper": {
+    "\\.(css|scss|less)$": "<rootDir>/tests/__mocks__/style_mock.ts",
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/__mocks__/file_mock.ts"
+  },
+  "preset": "ts-jest",
+  "rootDir": "./",
+  "roots": [
+    "<rootDir>/src/"
+  ],
+  "globals": {
+    "__PROXY_PORT__": 0,
+    "__BITMEX_API_KEY__": "",
+    "__BITMEX_API_SECRET__": "",
+    "__BITMEX_TESTNET__": true,
+    "__BITMEX_SYMBOLS__": ""
+  },
+  "setupFiles": [
+    "<rootDir>/tests/__mocks__/shim.ts"
+  ],
+  "testEnvironment": "node",
+  "testRegex": "/src/.*\\.test.(ts|tsx)$"
+}
