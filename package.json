@@ -3,7 +3,7 @@
   "desciption": "A lightweight client for trading on Bitmex exchange.",
   "version": "0.0.0",
   "scripts": {
-    "build": "yarn run clean && webpack --mode production",
+    "build": "yarn run webpack --mode production",
     "dep": "npm-check",
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:scss": "stylelint \"src/**/*.scss\"",
