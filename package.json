@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "scripts": {
     "build": "yarn run clean && webpack --mode production",
-    "clean": "rimraf dist",
     "dep": "npm-check",
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:scss": "stylelint \"src/**/*.scss\"",
